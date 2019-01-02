@@ -1,0 +1,13 @@
+panel:
+	style:
+		menu
+	:
+	size:
+		50
+		50
+	:
+	expand:
+		1
+		0
+	:
+:
