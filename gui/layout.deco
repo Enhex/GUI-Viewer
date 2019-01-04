@@ -2,12 +2,75 @@ panel:
 	style:
 		menu
 	:
-	size:
+	min_size:
 		50
 		50
 	:
 	expand:
 		1
 		0
+	:
+	child_layout:
+		orient:
+			0
+		:
+	:
+	children:
+		panel:
+			style:
+				field
+			:
+			expand:
+				1
+				0
+			:
+			child_layout:
+				orient:
+					1
+				:
+			:
+			children:
+				text_edit:
+					expand:
+						1
+						0
+					:
+					string:
+						layout file path
+					:
+				:
+			:
+		:
+		element:
+			min_size:
+				0
+				4
+			:
+		:
+		panel:
+			style:
+				field
+			:
+			expand:
+				1
+				0
+			:
+			child_layout:
+				orient:
+					1
+				:
+			:
+			children:
+				text_edit:
+					expand:
+						1
+						0
+					:
+					string:
+						style file path
+					:
+				:
+			:
+		:
 	:
 :
