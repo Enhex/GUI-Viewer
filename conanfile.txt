@@ -1,7 +1,5 @@
 [requires]
 gui/master@enhex/stable
 
-premake_generator/master@enhex/stable
-
 [generators]
 premake
