@@ -14,7 +14,7 @@ workspace("GUI Viewer")
 	location(_OPTIONS["location"])
 	conan_basic_setup()
 
-	project("GUI Viewer")
+	project("gui_viewer")
 		kind "ConsoleApp"
 		language "C++"
 		cppdialect "C++17"

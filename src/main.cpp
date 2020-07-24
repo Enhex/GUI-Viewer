@@ -20,7 +20,7 @@ int main()
 	font should be relative to the working directory path.
 	working directory path is the "URL"?
 	*/
-	auto font = app.style_manager.create_font(vg, "../GUI/example/font/Roboto-Regular.ttf"); // in case of running from build folder
+	auto font = app.style_manager.create_font(vg, "../../GUI/example/font/Roboto-Regular.ttf"); // in case of running from build folder
 
 
 	//TODO framework lib should provide default styles
